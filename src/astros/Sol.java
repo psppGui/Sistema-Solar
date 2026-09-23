@@ -4,7 +4,6 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Sol {
-<<<<<<< HEAD
     public static int xSol=400,ySol=400;
 
     public Sol(){ }
@@ -24,18 +23,3 @@ public class Sol {
     }
     public void logic(){}
 }
-=======
-    public static int xSol=400,ySol=250;
-
-    public Sol(){
-
-    }
-
-
-    public void render(Graphics graphic){
-        graphic.setColor(Color.yellow);
-        graphic.fillOval(xSol,ySol, 120,120);
-    }
-    public void logic(){}
-}
->>>>>>> 41a9a2fed7a92c1f065026d26ef333c573db8c67
