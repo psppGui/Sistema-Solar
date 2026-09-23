@@ -1,55 +1,23 @@
-<<<<<<< HEAD
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
 # Sistema Solar
 
-Projeto em desenvolvimento feito em Java para criar uma representação gráfica do Sistema Solar.
+Simulação 2D do Sistema Solar desenvolvida em Java, com foco em programação orientada a objetos, desenvolvimento gráfico e conceitos de matemática e movimentação.
 
-A ideia do projeto é desenvolver uma simulação visual dos planetas e outros corpos celestes, colocando em prática conceitos de programação orientada a objetos, desenvolvimento gráfico e lógica de movimentação.
+O projeto representa visualmente corpos celestes e está sendo desenvolvido como forma de estudar e praticar Java através da construção de uma aplicação gráfica.
 
-## Status
+## Demonstração
 
-**Em desenvolvimento**
+<img width="1594" height="1130" alt="Captura de tela de 2026-09-23 12-18-23" src="https://github.com/user-attachments/assets/b737e987-6a99-467a-874c-e1e90a2dcdd0" />
 
-O projeto ainda não está finalizado e novas funcionalidades serão adicionadas conforme o desenvolvimento continuar.
+## Tecnologias
 
-## Sobre o projeto
+[![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk&logoColor=white)](https://www.java.com/)
+[![AWT](https://img.shields.io/badge/Java-AWT-orange?logo=openjdk&logoColor=white)](https://docs.oracle.com/javase/8/docs/api/java/awt/package-summary.html)
+[![Swing](https://img.shields.io/badge/Java-Swing-orange?logo=openjdk&logoColor=white)](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html)
+[![JavaFX](https://img.shields.io/badge/JavaFX-21-orange?logo=openjdk&logoColor=white)](https://openjfx.io/)
 
-O Sistema Solar está sendo desenvolvido utilizando Java e bibliotecas gráficas nativas da linguagem.
+## Funcionalidades
 
-A aplicação tem como objetivo representar os corpos celestes de forma visual, permitindo futuramente simular seus movimentos e interações.
-
-O projeto também serve como uma forma de praticar conceitos de programação e desenvolvimento de aplicações gráficas.
-
-## Tecnologias utilizadas
-
-* Java
-* Java AWT
-* Java Swing
-* Programação Orientada a Objetos
-
-## Atualmente
-
-O projeto já possui a estrutura inicial da aplicação e os primeiros elementos da simulação.
-
-Entre os elementos que estão sendo trabalhados estão:
+Atualmente, a simulação possui:
 
 * Sol
 * Lua
@@ -57,21 +25,8 @@ Entre os elementos que estão sendo trabalhados estão:
 * Vênus
 * Terra
 * Marte
-
-## Próximos passos
-
-Algumas das funcionalidades planejadas para o projeto são:
-
-* Adicionar os demais planetas.
-* Melhorar a movimentação dos corpos celestes.
-* Implementar órbitas.
-* Melhorar a representação visual dos planetas.
-* Adicionar informações sobre cada planeta.
-* Adicionar interação com os corpos celestes.
-* Implementar controle de velocidade da simulação.
-* Adicionar opção de pausar e continuar.
-* Melhorar a escala da representação do Sistema Solar.
-* Adicionar novas funcionalidades conforme o projeto evoluir.
+* Representação gráfica dos corpos celestes
+* Movimentação dos elementos da simulação
 
 ## Como executar
 
@@ -79,52 +34,58 @@ Algumas das funcionalidades planejadas para o projeto são:
 
 É necessário ter o Java Development Kit (JDK) instalado.
 
-Para verificar:
+Verifique a instalação:
 
 ```bash
 java -version
 javac -version
 ```
 
-### Clonar o projeto
+### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/psppGui/Sistema-Solar.git
 cd Sistema-Solar
 ```
 
-### Executar
+### 2. Compile o projeto
 
-O projeto pode ser aberto em uma IDE com suporte a Java, como IntelliJ IDEA, Eclipse ou Visual Studio Code.
+Caso o projeto utilize uma classe principal chamada `Main`:
 
-A execução pode variar de acordo com a estrutura atual do projeto e com as funcionalidades que ainda estão sendo desenvolvidas.
+```bash
+javac -d bin src/*.java
+```
+
+### 3. Execute
+
+```bash
+java -cp bin Main
+```
+
+> Os comandos de compilação e execução podem variar conforme a organização atual dos pacotes e classes do projeto.
+
+Outra opção é abrir o projeto em uma IDE com suporte a Java, como IntelliJ IDEA, Eclipse ou Visual Studio Code, e executar a classe principal da aplicação.
 
 ## Objetivo
 
-Este projeto está sendo desenvolvido principalmente para aprendizado e prática de Java.
+O principal objetivo do projeto é praticar Java através do desenvolvimento de uma aplicação gráfica.
 
-Durante o desenvolvimento, são explorados conceitos como:
+## Próximos passos
+* Melhorar a representação visual
+* Adicionar informações sobre os planetas
+* Adicionar interação com os corpos celestes
+* Implementar controle de velocidade
+* Adicionar pausa e continuação da simulação
+* Melhorar a escala da representação do Sistema Solar
 
-* Programação Orientada a Objetos.
-* Classes e objetos.
-* Métodos e atributos.
-* Herança.
-* Organização de projetos.
-* Pacotes.
-* Renderização gráfica.
-* Coordenadas e movimentação.
-* Loops de atualização.
-* Desenvolvimento de aplicações visuais.
+## Status
 
-## Desenvolvimento
+Em desenvolvimento.
 
-O projeto continuará recebendo alterações, correções e novas funcionalidades até chegar à versão final.
+O projeto continua sendo utilizado como ambiente de estudo e prática de Java, matemática e desenvolvimento de aplicações gráficas.
 
 ## Autor
 
-Desenvolvido por [psppGui](https://github.com/psppGui).
+Guilherme Rodrigues
 
-## Repositório
-
-[GitHub - Sistema Solar](https://github.com/psppGui/Sistema-Solar)
->>>>>>> 41a9a2fed7a92c1f065026d26ef333c573db8c67
+[GitHub](https://github.com/psppGui) · [Portfólio](https://psppgui.github.io/)
