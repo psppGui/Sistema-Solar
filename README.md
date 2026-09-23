@@ -31,7 +31,7 @@ ser aberta.
 ## Estrutura
 
 - `src`: codigo-fonte Java
-- `bin`: classes compiladas
+- `bin`: classes compiladas, geradas durante a compilacao
 - `lib`: dependencias adicionais, caso sejam necessarias
 
 ## Autor
